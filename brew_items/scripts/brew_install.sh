@@ -8,4 +8,5 @@ brew install perl
 brew install python
 brew install zig
 
-# brew install ruby
+# brew install nim
+# brew install ruby - have it installed via curl in non_brew_language_installations
