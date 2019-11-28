@@ -40,3 +40,12 @@ if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
 
     ./brew_items/brew_scripts/update_and_upgrade_brew.sh
 fi
+
+echo $do_you_wish_to "brew clean?"
+read answer
+
+if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
+    echo "brew cleaning"
+
+    brew cleanup
+fi

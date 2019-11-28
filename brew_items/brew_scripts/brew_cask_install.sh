@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Maybe organize this based on what the items on, with some y/n switches for certain items
+
 brew cask install android-studio
 brew cask install atom
 brew cask install blender
@@ -31,5 +33,3 @@ brew cask install sublime-merge
 brew cask install ti-connect-ce
 brew cask install unity
 brew cask install visual-studio-code
-
-# Maybe organize this based on what the items on, with some y/n switches for certain items

@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-# Install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# These installations cover installing languages that aren't installed through homebrew
 
 # Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
