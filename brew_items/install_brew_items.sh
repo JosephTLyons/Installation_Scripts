@@ -38,7 +38,7 @@ read answer
 if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
     echo "Updating and upgrading" $your_brew_related_items
 
-    ./brew_items/brew_scripts/update_and_upgrade_brew.sh
+    ./brew_items/update_and_upgrade_brew.sh
 fi
 
 echo $do_you_wish_to "brew clean?"
