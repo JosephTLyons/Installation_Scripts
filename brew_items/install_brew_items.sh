@@ -15,7 +15,7 @@ read answer
 if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
     echo $installing $command_line_applications $brew_install
 
-    ./scripts/brew_install.sh
+    ./brew_items/brew_scripts/brew_install.sh
 fi
 
 gui_applications="GUI Applications"
@@ -27,16 +27,16 @@ read answer
 if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
     echo $installing $gui_applications $brew_cask_install
 
-    ./scripts/brew_cask_install.sh
+    ./brew_items/brew_scripts/brew_cask_install.sh
 fi
 
-your_items="your items"
+your_brew_related_items="your brew-related items"
 
-echo $do_you_wish_to "update and upgrade" $your_items"?"
+echo $do_you_wish_to "update and upgrade" $your_brew_related_items"?"
 read answer
 
 if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
-    echo "Updating and upgrading" $your_items
+    echo "Updating and upgrading" $your_brew_related_items
 
-    ./scripts/update_and_upgrade_brew.sh
+    ./brew_items/brew_scripts/update_and_upgrade_brew.sh
 fi
