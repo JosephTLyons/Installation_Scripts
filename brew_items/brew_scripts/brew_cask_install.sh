@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# Maybe organize this based on what the items on, with some y/n switches for certain items
-
 applications=(
     "android-studio"
     "atom"

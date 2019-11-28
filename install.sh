@@ -8,3 +8,5 @@
 # dotfiles and symlinks
 # pip stuff?
 # editor settings and plugins
+
+# Recall to clean up folders and repo of rust scripts that are now somewhat included in here
