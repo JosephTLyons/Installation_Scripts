@@ -6,6 +6,7 @@ brew install git
 brew install groff
 brew install perl
 brew install python
+brew install tree
 brew install zig
 
 # brew install nim
