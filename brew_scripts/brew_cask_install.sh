@@ -33,6 +33,3 @@ brew cask install unity
 brew cask install visual-studio-code
 
 # Maybe organize this based on what the items on, with some y/n switches for certain items
-# A script that uses brew update, brew upgrade, brew cask update, brew cask upgrade, brew cleanup, brew cask cleanup, brew doctor
-# A single repo for all brew scripts
-# Double check for any more apps I might need in brew cask and in brew
