@@ -14,6 +14,6 @@ applications=(
     "zig"
 )
 
-for t in ${applications[@]}; do
+for application in ${applications[@]}; do
     brew install $t
 done

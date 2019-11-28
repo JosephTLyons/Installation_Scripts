@@ -36,6 +36,6 @@ applications=(
     "visual-studio-code"
 )
 
-for t in ${applications[@]}; do
+for application in ${applications[@]}; do
     brew cask install $t
 done
