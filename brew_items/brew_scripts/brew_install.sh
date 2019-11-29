@@ -8,6 +8,7 @@ applications=(
     "emacs"
     "git"
     "groff"
+    "npm"
     "perl"
     "python"
     "tree"
