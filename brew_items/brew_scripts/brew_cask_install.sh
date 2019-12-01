@@ -10,7 +10,7 @@ applications=(
     "discord"
     "dropbox"
     "duet"
-    "emacs"
+    # "emacs" this conflicts with the command line version, runing emacs <filename> launches the GUI version
     "firefox"
     "fork"
     "github"
