@@ -35,5 +35,5 @@ applications=(
 )
 
 for application in ${applications[@]}; do
-    brew cask install $t
+    brew cask install $application
 done
