@@ -16,5 +16,5 @@ applications=(
 )
 
 for application in ${applications[@]}; do
-    brew install $t
+    brew install $application
 done
