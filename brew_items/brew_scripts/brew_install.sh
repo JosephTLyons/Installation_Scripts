@@ -11,6 +11,7 @@ applications=(
     "npm"
     "perl"
     "python"
+    "python3"
     "tree"
     "zig"
 )
