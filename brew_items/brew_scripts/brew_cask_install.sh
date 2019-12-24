@@ -10,7 +10,7 @@ applications=(
     "discord"
     "dropbox"
     "duet"
-    # "emacs" this conflicts with the command line version, runing emacs <filename> launches the GUI version
+    "emacs"
     "firefox"
     "fork"
     "github"
@@ -18,6 +18,7 @@ applications=(
     "google-chrome"
     "intellij-idea-ce"
     "licecap"
+    "mactex"
     "malwarebytes"
     "microsoft-excel"
     "microsoft-powerpoint"

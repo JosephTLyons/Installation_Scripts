@@ -10,6 +10,7 @@ applications=(
     "groff"
     "npm"
     "perl"
+    "pipenv"
     "python"
     "python3"
     "tree"
