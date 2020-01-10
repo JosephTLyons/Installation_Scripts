@@ -9,6 +9,7 @@ applications=(
     "git"
     "groff"
     "npm"
+    "nushell"
     "perl"
     "pipenv"
     "python"
