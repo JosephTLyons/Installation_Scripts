@@ -5,6 +5,7 @@
 
 applications=(
     "bash"
+    "cmake"
     "emacs"
     "git"
     "groff"
