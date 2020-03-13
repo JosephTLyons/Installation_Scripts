@@ -10,6 +10,7 @@ applications=(
     "emacs"
     "git"
     "groff"
+    "neofect"
     "npm"
     "nushell"
     "perl"
