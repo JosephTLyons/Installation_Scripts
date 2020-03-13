@@ -1,9 +1,11 @@
-#!/usr/bin/env bash
+#!/usr/bin/env python3
+
+import os
 
 # Update Rust --------------------------------------------------------------------------------------
 
 # Update rustup
-rustup self update
+os.system("rustup self update")
 
 # Updates components:
 # - rustc
@@ -14,11 +16,11 @@ rustup self update
 # - rust-src
 # - rls
 # Then it checks for self updates.  (Is first command needed?)
-rustup update
+os.system("rustup update")
 
 # Update other components (may no longer be needed)
-rustup component add clippy
-rustup component add rustfmt
+os.system("rustup component add clippy")
+os.system("rustup component add rustfmt")
 
 # Update Nim ---------------------------------------------------------------------------------------
 
