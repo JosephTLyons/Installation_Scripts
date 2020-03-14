@@ -1,8 +1,24 @@
 #!/usr/bin/env python3
 
-import os
+command_line_applications = [
+    "bash",
+    "broot",
+    "cmake",
+    "emacs",
+    "git",
+    "groff",
+    "neofetch",
+    "npm",
+    "nushell",
+    "perl",
+    "pipenv",
+    "python",
+    "python3",
+    "tree",
+    "zig",
+]
 
-applications = [
+gui_applications = [
     "android-studio",
     "atom",
     "blender",
@@ -36,6 +52,3 @@ applications = [
     "unity",
     "visual-studio-code",
 ]
-
-for application in applications:
-    os.system("brew install {application}".format(application=application))

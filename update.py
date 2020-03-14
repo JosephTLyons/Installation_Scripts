@@ -2,5 +2,8 @@
 
 import os
 
-os.system("./brew_items/update_and_upgrade_brew.py")
-os.system("./language_items/update_languages.py")
+from installation_items.brew_installation import update_and_upgrade_brew
+from installation_items.programming_languages import update_programming_languages
+
+update_and_upgrade_brew()
+update_programming_languages()
