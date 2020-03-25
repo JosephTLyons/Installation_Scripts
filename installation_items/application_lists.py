@@ -15,6 +15,7 @@ command_line_applications = [
     "python",
     "python3",
     "tree",
+    "yarn",
     "zig",
 ]
 
