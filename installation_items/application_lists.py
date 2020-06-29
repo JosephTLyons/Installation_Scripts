@@ -14,6 +14,7 @@ command_line_applications = [
     "pipenv",
     "python",
     "python3",
+    "tokei"
     "tree",
     "yarn",
     "zig",
