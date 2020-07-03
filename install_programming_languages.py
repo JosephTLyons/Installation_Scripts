@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import os
-
 from helper_items.command_lists import programming_language_install_commands
 from helper_items.helper_functions import batch_run_commands
 
