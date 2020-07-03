@@ -3,8 +3,11 @@
 import os
 
 
-def install_applications(install_command, applications):
+def batch_install(install_command, applications):
     for application in applications:
         command = "{install_command} {application}".format(install_command=install_command, application=application)
-        print(command)
-        os.system(command)
+        install(command)
+
+def install(install_command):
+    print(install_command)
+    os.system(install_command)
