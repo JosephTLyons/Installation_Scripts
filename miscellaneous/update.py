@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-from helper_items.command_lists import brew_action_commands
+from helper_items.command_lists import brew_update_action_commands
 from helper_items.helper_functions import batch_run_commands, run_command
 
 
 def update_and_upgrade_brew():
-    batch_run_commands(brew_action_commands)
+    batch_run_commands(brew_update_action_commands)
 
 
 def update_programming_languages():

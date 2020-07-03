@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-from .lists import brew_applications, brew_actions,  brew_cask_applications, pip_applications
+from .lists import brew_applications, brew_update_actions,  brew_cask_applications, pip_applications, programming_language_curl_items
 
 
-brew_action_commands = [("brew " + brew_action) for brew_action in brew_actions]
+brew_update_action_commands = [("brew " + brew_action) for brew_action in brew_update_actions]
 
 
 brew_application_install_commands = [("brew install " + brew_application) for brew_application in brew_applications]
@@ -15,8 +15,4 @@ brew_cask_application_install_commands = [("brew cask install " + brew_cask_appl
 pip_application_install_commands = [("pip3 install " + pip_application) for pip_application in pip_applications]
 
 
-# Break out non-curl stuff similar to lists above?
-programming_language_install_commands = [
-    "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
-    "curl https://nim-lang.org/choosenim/init.sh -sSf | sh",
-]
+programming_language_install_commands = [("curl " + programming_language_curl_item) for programming_language_curl_item in programming_language_curl_items]

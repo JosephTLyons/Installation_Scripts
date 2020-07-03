@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+brew_update_actions = {
+    "cask upgrade",
+    "update",
+    "upgrade",
+}
+
+
 brew_applications = [
     "bash",
     "broot",
@@ -63,8 +70,7 @@ pip_applications = [
 ]
 
 
-brew_actions = {
-    "update",
-    "upgrade",
-    "cask upgrade",
-}
+programming_language_curl_items = [
+    "--proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+    "https://nim-lang.org/choosenim/init.sh -sSf | sh",
+]
