@@ -9,6 +9,6 @@ def install_applications(install_command, applications):
     for application in applications:
         print("    {application}".format(application=application))
         command = "{install_command} {application}".format(install_command=install_command, application=application)
-        # os.system(command)
+        os.system(command)
 
     print()
