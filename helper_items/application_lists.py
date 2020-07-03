@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-command_line_applications = [
+brew_applications = [
     "bash",
     "broot",
     "cmake",
@@ -14,13 +14,13 @@ command_line_applications = [
     "pipenv",
     "python",
     "python3",
-    "tokei"
+    "tokei",
     "tree",
     "yarn",
     "zig",
 ]
 
-gui_applications = [
+brew_cask_applications = [
     "android-studio",
     "atom",
     "blender",
@@ -53,4 +53,9 @@ gui_applications = [
     "ti-connect-ce",
     "unity",
     "visual-studio-code",
+]
+
+pip_applications = [
+    "bpython",
+    "virtualenv",
 ]

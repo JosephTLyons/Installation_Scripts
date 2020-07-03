@@ -1,18 +1,18 @@
-#!/usr/bin/env python3
-
 import os
 
-def install_programming_languages():
-    # These installations cover installing languages that aren't installed through homebrew
 
-    # Install Rust
-    os.system("curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh")
+def update_and_upgrade_brew():
+    actions = [
+        "update",
+        "upgrade",
+        "cask upgrade",
+    ]
 
-    # Install Nim
-    os.system("curl https://nim-lang.org/choosenim/init.sh -sSf | sh")
+    for action in actions:
+        os.system("brew {action}".format(action=action))
+
 
 def update_programming_languages():
-    # Update Rust
     # Update rustup
     os.system("rustup self update")
 
@@ -33,3 +33,7 @@ def update_programming_languages():
 
     # Update Nim
     # ?
+
+
+update_and_upgrade_brew()
+update_programming_languages()
