@@ -1,8 +1,8 @@
-import os
+from helper_items.helper_functions import run_command
 
 
 def brew_cleanup():
-    os.system("brew cleanup")
+    run_command("brew cleanup")
 
 
 brew_cleanup()

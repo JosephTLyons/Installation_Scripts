@@ -1,4 +1,4 @@
-import os
+from helper_items.helper_functions import run_command
 
 
 def update_and_upgrade_brew():
@@ -9,12 +9,12 @@ def update_and_upgrade_brew():
     ]
 
     for action in actions:
-        os.system("brew {action}".format(action=action))
+        run_command("brew {action}".format(action=action))
 
 
 def update_programming_languages():
     # Update rustup
-    os.system("rustup self update")
+    run_command("rustup self update")
 
     # Updates components:
     # - rustc
@@ -25,11 +25,11 @@ def update_programming_languages():
     # - rust-src
     # - rls
     # Then it checks for self updates.  (Is first command needed?)
-    os.system("rustup update")
+    run_command("rustup update")
 
     # Update other components (may no longer be needed)
-    os.system("rustup component add clippy")
-    os.system("rustup component add rustfmt")
+    run_command("rustup component add clippy")
+    run_command("rustup component add rustfmt")
 
     # Update Nim
     # ?

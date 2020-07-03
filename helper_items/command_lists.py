@@ -20,6 +20,7 @@ brew_applications = [
     "zig",
 ]
 
+
 brew_cask_applications = [
     "android-studio",
     "atom",
@@ -55,7 +56,14 @@ brew_cask_applications = [
     "visual-studio-code",
 ]
 
+
 pip_applications = [
     "bpython",
     "virtualenv",
+]
+
+
+programming_language_install_commands = [
+    "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+    "curl https://nim-lang.org/choosenim/init.sh -sSf | sh",
 ]
