@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-brew_update_actions = {
+brew_update_actions = [
     "cask upgrade",
     "update",
     "upgrade",
-}
+]
 
 
 brew_applications = [
