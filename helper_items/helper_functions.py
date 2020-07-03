@@ -3,15 +3,8 @@
 import os
 
 
-def batch_run_commands(command_items, command_prefix=None):
-    for command_item in command_items:
-        command = ""
-
-        if command_prefix is not None:
-            command = command_prefix
-
-        command += "{command_item}".format(command_item=command_item)
-
+def batch_run_commands(commands):
+    for command in commands:
         run_command(command)
 
 

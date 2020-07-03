@@ -1,15 +1,11 @@
-from helper_items.helper_functions import run_command
+#!/usr/bin/env python3
+
+from helper_items.command_lists import brew_action_commands
+from helper_items.helper_functions import batch_run_commands, run_command
 
 
 def update_and_upgrade_brew():
-    actions = [
-        "update",
-        "upgrade",
-        "cask upgrade",
-    ]
-
-    for action in actions:
-        run_command("brew {action}".format(action=action))
+    batch_run_commands(brew_action_commands)
 
 
 def update_programming_languages():
