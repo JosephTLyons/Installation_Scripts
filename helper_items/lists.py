@@ -46,7 +46,7 @@ brew_cask_applications = [
     "google-chrome",
     "intellij-idea-ce",
     "licecap",
-    "mactex",
+    "mactex-no-gui",
     "malwarebytes",
     "microsoft-excel",
     "microsoft-powerpoint",
