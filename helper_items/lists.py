@@ -18,6 +18,7 @@ brew_applications = [
     "emacs",
     "git",
     "groff",
+    "hyperfine",
     "neofetch",
     "npm",
     "nushell",
