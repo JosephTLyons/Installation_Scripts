@@ -6,6 +6,10 @@ brew_update_actions = [
     "upgrade",
 ]
 
+brew_taps = [
+    "cjbassi/ytop",
+]
+
 
 brew_applications = [
     "bash",
@@ -24,6 +28,7 @@ brew_applications = [
     "tokei",
     "tree",
     "yarn",
+    "ytop",
     "zig",
 ]
 
