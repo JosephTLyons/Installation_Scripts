@@ -73,6 +73,7 @@ brew_cask_applications = [
 
 pip_applications = [
     "bpython",
+    "pytest",
     "virtualenv",
 ]
 
