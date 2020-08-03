@@ -17,6 +17,7 @@ brew_applications = [
     "cmake",
     "emacs",
     "git",
+    "grex",
     "groff",
     "hyperfine",
     "neofetch",
