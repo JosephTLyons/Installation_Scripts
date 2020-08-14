@@ -19,6 +19,7 @@ brew_applications = [
     "git",
     "grex",
     "groff",
+    "htop",
     "hyperfine",
     "neofetch",
     "npm",
