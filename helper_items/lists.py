@@ -75,6 +75,7 @@ brew_cask_applications = [
 
 pip_applications = [
     "bpython",
+    "django",
     "jupyterlab",
     "pytest",
     "virtualenv",
