@@ -8,6 +8,7 @@ brew_update_actions = [
 
 brew_taps = [
     "cjbassi/ytop",
+    "mongodb/brew",
 ]
 
 
@@ -21,6 +22,7 @@ brew_applications = [
     "groff",
     "htop",
     "hyperfine",
+    "mongodb-community",
     "neofetch",
     "npm",
     "nushell",
