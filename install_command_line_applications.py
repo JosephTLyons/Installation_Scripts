@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
-from helper_items.command_lists import brew_application_install_commands, brew_tap_commands, \
-    pip_application_install_commands
+from helper_items.command_lists import (
+    brew_application_install_commands,
+    brew_tap_commands,
+    pip_application_install_commands,
+)
 from helper_items.helper_functions import batch_run_commands
 
 
