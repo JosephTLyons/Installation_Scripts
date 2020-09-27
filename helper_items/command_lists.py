@@ -20,8 +20,6 @@ brew_application_install_commands = [
     "brew install " + brew_application for brew_application in brew_applications
 ]
 
-print(brew_application_install_commands)
-
 
 brew_cask_application_install_commands = [
     "brew cask install " + brew_cask_application for brew_cask_application in brew_cask_applications
