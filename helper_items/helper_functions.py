@@ -8,6 +8,9 @@ def batch_run_commands(commands):
         run_command(command)
 
 
-def run_command(command):
-    print(command)
+def run_command(command, output=None):
+    if not output:
+        output = command
+
+    print(output)
     os.system(command)
