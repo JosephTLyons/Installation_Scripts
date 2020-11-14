@@ -33,6 +33,7 @@ brew_applications = [
     "pipenv",
     "python",
     "python3",
+    "pyenv",
     "ripgrep",
     "tokei",
     "tree",
