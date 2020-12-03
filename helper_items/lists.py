@@ -26,6 +26,7 @@ brew_applications = [
     "hyperfine",
     "mas",
     "mongodb-community",
+    "navi",
     "neofetch",
     "npm",
     "nushell",
