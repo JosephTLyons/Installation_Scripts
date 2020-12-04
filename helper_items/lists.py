@@ -36,6 +36,7 @@ brew_applications = [
     "python",
     "python3",
     "ripgrep",
+    "starship",
     "tokei",
     "tree",
     "yarn",
