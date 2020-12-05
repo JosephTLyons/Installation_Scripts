@@ -17,6 +17,7 @@ brew_applications = [
     "broot",
     "cmake",
     "emacs",
+    "fish",
     "gh",
     "git",
     "grex",
