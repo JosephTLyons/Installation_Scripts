@@ -7,13 +7,14 @@ brew_update_actions = [
 ]
 
 brew_taps = [
-    "cjbassi/ytop",
+    "clementtsang/bottom",
     "mongodb/brew",
 ]
 
 
 brew_applications = [
     "bash",
+    "bottom",
     "broot",
     "cmake",
     "emacs",
@@ -41,7 +42,6 @@ brew_applications = [
     "tokei",
     "tree",
     "yarn",
-    "ytop",
     "zig",
 ]
 
