@@ -21,6 +21,7 @@ brew_applications = [
     "fish",
     "gh",
     "git",
+    "go",
     "grex",
     "groff",
     "htop",
