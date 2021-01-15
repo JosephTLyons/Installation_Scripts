@@ -15,7 +15,6 @@ brew_taps = [
 
 brew_applications = [
     "bash",
-    "bottom",
     "broot",
     "cmake",
     "emacs",
@@ -23,6 +22,7 @@ brew_applications = [
     "gh",
     "git",
     "go",
+    "gotop",
     "grex",
     "groff",
     "htop",
