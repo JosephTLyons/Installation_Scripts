@@ -9,6 +9,7 @@ brew_update_actions = [
 brew_taps = [
     "clementtsang/bottom",
     "mongodb/brew",
+    "romkatv/powerlevel10k",
 ]
 
 
@@ -35,6 +36,7 @@ brew_applications = [
     "nushell",
     "perl",
     "pipenv",
+    "powerlevel10k",
     "pyenv",
     "python",
     "python3",
