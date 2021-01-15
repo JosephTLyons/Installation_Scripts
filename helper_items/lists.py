@@ -40,6 +40,7 @@ brew_applications = [
     "pyenv",
     "python",
     "python3",
+    "ranger",
     "ripgrep",
     "starship",
     "tokei",
