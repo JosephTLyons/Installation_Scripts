@@ -16,6 +16,7 @@ brew_taps = [
 brew_applications = [
     "bash",
     "cmake",
+    "duf",
     "emacs",
     "fish",
     "gh",
