@@ -32,6 +32,7 @@ brew_applications = [
     "mongodb-community",
     "navi",
     "neofetch",
+    "nnn",
     "npm",
     "nushell",
     "perl",
