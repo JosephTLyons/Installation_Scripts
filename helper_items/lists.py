@@ -28,6 +28,7 @@ brew_applications = [
     "htop",
     "hub",
     "hyperfine",
+    "lua",
     "mas",
     "mongodb-community",
     "navi",
