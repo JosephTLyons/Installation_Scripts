@@ -20,6 +20,7 @@ brew_applications = [
     "duf",
     "emacs",
     "fish",
+    "flamegraph",
     "gh",
     "git",
     "go",
