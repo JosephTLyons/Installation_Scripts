@@ -19,7 +19,6 @@ brew_applications = [
     "cmake",
     "duf",
     "emacs",
-    "fish",
     "flamegraph",
     "gh",
     "git",
