@@ -8,6 +8,7 @@ brew_update_actions = [
 
 brew_taps = [
     "clementtsang/bottom",
+    "helix-editor/helix"
     "mongodb/brew",
     "romkatv/powerlevel10k",
 ]
@@ -26,6 +27,7 @@ brew_applications = [
     "gotop",
     "grex",
     "groff",
+    "helix",
     "htop",
     "hub",
     "hyperfine",
