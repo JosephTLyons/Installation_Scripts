@@ -8,7 +8,7 @@ brew_update_actions = [
 
 brew_taps = [
     "clementtsang/bottom",
-    "helix-editor/helix"
+    "helix-editor/helix",
     "mongodb/brew",
     "romkatv/powerlevel10k",
 ]
