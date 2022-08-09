@@ -18,6 +18,7 @@ brew_applications = [
     "austin",
     "bash",
     "cmake",
+    "difftastic",
     "duf",
     "emacs",
     "flamegraph",
