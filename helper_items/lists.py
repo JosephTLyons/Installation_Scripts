@@ -7,53 +7,34 @@ brew_update_actions = [
 ]
 
 brew_taps = [
-    "clementtsang/bottom",
     "helix-editor/helix",
-    "mongodb/brew",
     "romkatv/powerlevel10k",
 ]
 
 
 brew_applications = [
-    "austin",
     "bash",
-    "cmake",
     "difftastic",
     "duf",
-    "emacs",
-    "flamegraph",
     "gh",
     "git",
-    "go",
-    "gotop",
     "grex",
-    "groff",
     "helix",
-    "htop",
     "hub",
     "hyperfine",
     "lua",
     "mas",
-    "mongodb-community",
     "navi",
-    "neofetch",
-    "ninja",
-    "nnn",
-    "npm",
     "nushell",
-    "perl",
     "pipenv",
     "powerlevel10k",
     "pyenv",
     "python",
     "python3",
-    "ranger",
     "ripgrep",
     "starship",
     "tokei",
     "tree",
-    "yarn",
-    "zig",
 ]
 
 
