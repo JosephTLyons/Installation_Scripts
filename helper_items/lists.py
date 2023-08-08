@@ -20,11 +20,15 @@ brew_applications = [
     "git",
     "grex",
     "helix",
+    "httpie",
     "hub",
     "hyperfine",
+    "lazygit",
     "lua",
     "mas",
     "navi",
+    "npm",
+    "npx",
     "nushell",
     "pipenv",
     "powerlevel10k",
@@ -35,6 +39,8 @@ brew_applications = [
     "starship",
     "tokei",
     "tree",
+    "vercel-cli",
+    "vhs"
 ]
 
 
