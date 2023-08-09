@@ -14,12 +14,15 @@ brew_taps = [
 
 brew_applications = [
     "bash",
+    "bat",
     "difftastic",
     "duf",
+    "fd",
     "gh",
     "git",
     "grex",
     "helix",
+    "hexyl",
     "httpie",
     "hub",
     "hyperfine",
